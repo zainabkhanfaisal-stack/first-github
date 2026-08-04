@@ -1,2 +1,2 @@
-# first-github
+# First-github
 my first project
