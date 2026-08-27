@@ -1,0 +1,131 @@
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+    background-color: #132440;
+}
+div.sign-up {
+    display:flex;
+    color:#F2EFE7;
+    flex-direction: column;
+    padding: 100px;
+    margin:0%;
+    margin-top:0%;
+    width: 500px;
+    align-items: flex-start;
+}
+button {
+    width: 120px;
+    background-color: #1B2CC1;
+    color: white;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+}
+h1{
+    font-family: 'Montserrat', sans-seri;
+    font-size: 50px;
+}
+img#study-image {
+    width: 500px;
+    display: block;
+    padding: 100px;
+    position:static;
+    float:right;
+     margin: 0 0 15px 15px;
+     height: auto;
+     align-items:flex-start;
+}
+div.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    color: #4a4a4c;
+    background-color:#F2EFE7;
+    margin: 70px;
+    padding: 20px;
+    width: 90%;
+    height: 300px;
+    position:static;
+    border-radius: 20px;
+    place-items: center;
+}
+
+p#feature1, p#feature2, p#feature3 {
+    font-size: 30px;
+    border:5px solid #1B2CC1;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    padding:20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    color:#F2EFE7;
+}
+
+div.qoute{
+    display: block;
+    background-color: #F2EFE7;
+     margin: 70px;
+    padding: 20px;
+    width: 90%;
+    height: 300px;
+    position:static;
+    border-radius: 20px;
+    place-items: center;
+
+}
+p#inspire{
+    color: #4a4a4c;
+    margin-top: 50px;
+    font-size: 40px;
+}
+q{
+  quotes: none;
+  color: inherit; 
+
+}
+q::before {
+  content: '"'; 
+  color:#1B2CC1 ;
+  font-size: 60px;
+}
+
+q::after {
+  content: '"'; 
+  color: #1B2CC1;
+  font-size: 60px;
+}
+
+div.ready{
+    display: flex;
+    flex-direction:row;
+    background-color: #1B2CC1;
+    place-items: left;
+    width: 70%;
+    margin: 70px;
+    padding: 20px;
+    margin-left: 160px;
+    border-radius: 20px;
+    border:5px solid #F2EFE7;
+    font-size: 30px;
+    color:#F2EFE7;
+    justify-content: space-around;
+}
+
+button#second{
+    border-radius: 20px;
+    border:2px solid #F2EFE7;
+    width: 120px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+
+
+
